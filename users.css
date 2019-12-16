@@ -1,0 +1,10 @@
+th {
+  color: #fff;
+}
+a {
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}
+table {
+  text-align: center;
+}

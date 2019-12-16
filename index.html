@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="users.css" />
+    <title>JS Bin</title>
+  </head>
+  <body>
+    <table class="table table-striped" id="userTable">
+      <tr class="bg-info">
+        <th onclick="sortTable(0)"><a>Gender</a></th>
+        <th onclick="sortTable(1)"><a>First Name</a></th>
+        <th onclick="sortTable(2)"><a>Last Name</a></th>
+        <th onclick="sortTable(3)"><a>Country</a></th>
+        <th><a>Date of Birth</a></th>
+        <th onclick="sortTable(5)"><a>Birthday</a></th>
+      </tr>
+
+      <tbody id="myTable"></tbody>
+    </table>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="user.js"></script>
+</html>
